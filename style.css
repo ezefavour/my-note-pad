@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contanier{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(130deg, #31114e, #293446);
+    color: #fff;
+    padding-top:5% ;
+    padding-left:10% ;
+}
+.contanier h1{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.contanier h1 img{
+    width: 60px;
+}
+.contanier button img{
+    width: 25px;
+    margin-right: 8px;
+}
+.contanier button {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#857922, #263792);
+    font-size: 16px;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px 25px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+}
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* :root{
+    --base-color:white;
+    --base-variant:#e8e9ed;
+    --text-color:#111528;
+    --secondary-text:#232738;
+    --primary-color:#3a435d;
+    --accent-color:#0071ff;
+
+}
+.darkmode{
+    --base-color:rgb(0, 0, 0);
+    --base-variant:#050916;
+    --text-color:#e8ecff;
+    --secondary-text:#ffffff;
+    --primary-color:#3a435d;
+    --accent-color:#0071ff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-color: var(--base-color);
+    color: var(--text-color);
+} */
